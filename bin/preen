@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+var preen = require('../lib/preen.js');
+
+var argv = require('optimist')
+    .default({preview: false})
+    .argv
+;
+
+preen.preen(argv);
