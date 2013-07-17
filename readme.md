@@ -46,7 +46,12 @@ you can then run `preen` if you are happy to go ahead
 
 ##Grunt Task
 while preen can be run via the command line it is well suited to running as a grunt task
-eg.
+COMING SOON
 
-##uses
-readdirp
+##Dependencies
+thanks to the following modules that make this one possible
+* bower
+* fs.extra
+* readdirp
+* minimatch
+* optimist
