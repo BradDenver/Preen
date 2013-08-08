@@ -45,8 +45,8 @@ you can then run `preen` if you are happy to go ahead
 ![](https://raw.github.com/BradDenver/Preen/master/screenshots/preview2.png)
 
 ##Grunt Task
-while preen can be run via the command line it is well suited to running as a [grunt task](https://nodei.co/npm/grunt-preen/)
-[![NPM](https://nodei.co/npm/grunt-preen.png?downloads=true&stars=true)](https://nodei.co/npm/grunt-preen/)
+while preen can be run via the command line it is well suited to running as a [grunt task](https://github.com/braddenver/grunt-preen)
+[![NPM](https://nodei.co/npm/grunt-preen.png?downloads=true&stars=true)](https://github.com/braddenver/grunt-preen)
 
 ##Dependencies
 thanks to the following modules that make this one possible
