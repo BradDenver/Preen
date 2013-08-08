@@ -1,12 +1,13 @@
 {
   "name": "preen",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "preen unwanted files in packages installed via Bower",
-  "main": "preen.js",
+  "main": "./lib/preen.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "async": "~0.2.9",
     "bower": "0.10.x",
     "fs.extra": "1.2.x",
     "readdirp": "0.3.x",
@@ -21,9 +22,16 @@
     "Bower"
   ],
   "author": "Brad Denver",
-  "license": "BSD",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/braddenver/preen/blob/master/LICENSE-MIT"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/BradDenver/Preen/issues"
   },
-  "bin": { "preen": "./bin/preen" }
+  "bin": {
+    "preen": "./bin/preen"
+  }
 }
