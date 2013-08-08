@@ -1,6 +1,6 @@
 {
   "name": "preen",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "preen unwanted files in packages installed via Bower",
   "main": "./lib/preen.js",
   "scripts": {
