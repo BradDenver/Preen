@@ -17,7 +17,7 @@ My projects `bower.json` file has jquery as a dependency.
 which gives the following folder after running `bower install`  
 ![](https://raw.github.com/BradDenver/Preen/master/screenshots/basic.png)  
 but all I really need for this project is the 4 javascript files.
-So I update my `bower.json` to with a preen property as follows
+So I update my `bower.json` with a preen property as follows
 ```javascript
 {
   "name": "myProject",
@@ -35,7 +35,15 @@ and then run `preen` to end up with
 ![](https://raw.github.com/BradDenver/Preen/master/screenshots/basic2.png)
 
 ##Configuration
-an array of minimatch filters
+As shown above configuration is done via the preen property of your `bower.json` file.
+The preen data object expects properties for each bower installed package that is to be preened in the format
+```javascript
+"<package>": ["<patern 1>", "<patern 2>", ...]
+```
+
+See [Minimatch](https://github.com/isaacs/minimatch) for an explanation of Minimatch patterns.
+
+Any packages not listed will not be preened.
 
 ##Options
 when running via the command line you can add a preview flag to see a list of all paths and if they will be deleted or kept
@@ -50,8 +58,13 @@ while preen can be run via the command line it is well suited to running as a [g
 
 ##Dependencies
 thanks to the following modules that make this one possible
+* async
 * bower
 * fs.extra
 * readdirp
 * minimatch
 * optimist
+
+## Release History
+* Aug 9, 2013 v1.0.0
+  preen and grunt-preen are ready to roll
