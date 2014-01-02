@@ -1,6 +1,6 @@
-#Preen
+#Preen [![Analytics](https://ga-beacon.appspot.com/UA-40041520-3/Preen/readme)](https://github.com/igrigorik/ga-beacon)
 
-A Node.js module to preen unwanted files and folders from packages installed via Bower.
+>A Node.js module to preen unwanted files and folders from packages installed via Bower.
 
 Bower is great but some times it gives you more than you need. These days many packages define paths that are not required in production via the `bower.json` files `ignore` property but even then you may still get more than you need. Preens role is to remove any of those unwanted files/paths.
 
