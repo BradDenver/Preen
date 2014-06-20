@@ -36,7 +36,9 @@ and then run `preen` to end up with
 
 ###Updated Example
 The previous example will not work for newer versions of jquery such as 2.1.1 due to its updated folder structure
+
 ![](https://raw.github.com/BradDenver/Preen/master/screenshots/example2_before.png)
+
 A more suitable `bower.json` would look like
 ```javascript
 {
@@ -52,6 +54,7 @@ A more suitable `bower.json` would look like
 }
 ```
 resulting in
+
 ![](https://raw.github.com/BradDenver/Preen/master/screenshots/example2_after.png)
 
 ##Configuration
