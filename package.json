@@ -1,6 +1,6 @@
 {
   "name": "preen",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "https://github.com/braddenver/preen",
   "description": "preen unwanted files in packages installed via Bower",
   "main": "./lib/preen.js",
@@ -13,7 +13,8 @@
     "fs.extra": "1.2.x",
     "readdirp": "0.3.x",
     "minimatch": "0.2.x",
-    "optimist": "0.6.x"
+    "optimist": "0.6.x",
+    "winston": "~0.7.3"
   },
   "repository": {
     "type": "git",
