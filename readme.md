@@ -26,7 +26,7 @@ So I update my `bower.json` with a preen property as follows
   },
   "preen": {
     "jquery": [
-      "**.js"
+      "dist/*.js"
     ]
   }
 }
