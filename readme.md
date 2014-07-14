@@ -82,6 +82,21 @@ A verbose flag is also avaible to show the same level of detail as the actual pr
 while preen can be run via the command line it is well suited to running as a [grunt task](https://github.com/braddenver/grunt-preen)
 [![NPM](https://nodei.co/npm/grunt-preen.png?downloads=true&stars=true)](https://github.com/braddenver/grunt-preen)
 
+##Gulp Task
+preen can also be used in a gulp task (there is no need for preen to have gulp plugin). The below example would run preen (with no options set) before the default task.
+```javascript
+var gulp = require('gulp'),
+preen = require('preen');
+
+gulp.task('default', ['preen'], function() {
+  // place code for your default task here
+});
+
+gulp.task('preen', function(cb) {
+  preen.preen({}, cb);
+});
+```
+
 ##Dependencies
 thanks to the following modules that make this one possible
 * async

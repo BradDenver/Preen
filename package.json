@@ -1,6 +1,6 @@
 {
   "name": "preen",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "homepage": "https://github.com/braddenver/preen",
   "description": "preen unwanted files in packages installed via Bower",
   "main": "./lib/preen.js",
@@ -21,7 +21,8 @@
     "url": "git://github.com/BradDenver/Preen.git"
   },
   "keywords": [
-    "Bower"
+    "Bower",
+    "gulpfriendly"
   ],
   "author": "Brad Denver",
   "licenses": [
