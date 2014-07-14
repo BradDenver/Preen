@@ -26,7 +26,7 @@ So I update my `bower.json` with a preen property as follows
   },
   "preen": {
     "jquery": [
-      "**.js"
+      "*.js"
     ]
   }
 }
@@ -48,7 +48,7 @@ A more suitable `bower.json` would look like
   },
   "preen": {
     "jquery": [
-      "dist/**.js"
+      "dist/*.js"
     ]
   }
 }
