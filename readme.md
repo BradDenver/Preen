@@ -117,3 +117,5 @@ thanks to [@ratbeard](https://github.com/ratbeard) for his contributions
   * new --verbose flag
   * improved logging using winston
   * updated examples
+* Jul 14, 2014 v1.1.1
+  * fixed callback not being called
