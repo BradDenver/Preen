@@ -108,7 +108,7 @@ thanks to the following modules that make this one possible
 * winston
 
 ##Credits
-thanks to [@ratbeard](https://github.com/ratbeard) for his contributions
+thanks to [@ratbeard](https://github.com/ratbeard) and [@brainboost](https://github.com/brainboost) for their contributions
 
 ## Release History
 * Aug 9, 2013 v1.0.0
@@ -119,3 +119,5 @@ thanks to [@ratbeard](https://github.com/ratbeard) for his contributions
   * updated examples
 * Jul 14, 2014 v1.1.1
   * fixed callback not being called
+* Aug 1, 2014 v1.1.2
+  * fixed bug causing incorrect deletion on windows
