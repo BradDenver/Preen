@@ -121,3 +121,5 @@ thanks to [@ratbeard](https://github.com/ratbeard) and [@brainboost](https://git
   * fixed callback not being called
 * Aug 1, 2014 v1.1.2
   * fixed bug causing incorrect deletion on windows
+* Nov 11, 2014 v1.1.3
+  * fixed bug allowing execution to end before all async deletions complete
