@@ -78,6 +78,8 @@ you can then run `preen` if you are happy to go ahead
 A verbose flag is also avaible to show the same level of detail as the actual preen is run
 `preen --verbose`
 
+You can also add a directory flag to override bower's default directory (or the one set in .bowerrc). This can be useful when using preen as part of your build pipeline. Example: `preen --directory ./tmp/path/to/bower/root`
+
 ##Grunt Task
 while preen can be run via the command line it is well suited to running as a [grunt task](https://github.com/braddenver/grunt-preen)
 [![NPM](https://nodei.co/npm/grunt-preen.png?downloads=true&stars=true)](https://github.com/braddenver/grunt-preen)
