@@ -110,7 +110,7 @@ thanks to the following modules that make this one possible
 * winston
 
 ##Credits
-thanks to [@ratbeard](https://github.com/ratbeard) and [@brainboost](https://github.com/brainboost) for their contributions
+thanks to [@brainboost](https://github.com/brainboost), [@ratbeard](https://github.com/ratbeard) and [@Taiters](https://github.com/Taiters) for their contributions
 
 ## Release History
 * Aug 9, 2013 v1.0.0
@@ -125,3 +125,5 @@ thanks to [@ratbeard](https://github.com/ratbeard) and [@brainboost](https://git
   * fixed bug causing incorrect deletion on windows
 * Nov 11, 2014 v1.1.3
   * fixed bug allowing execution to end before all async deletions complete
+* Jan 30, 2015 v1.2
+  * new --directory flag
