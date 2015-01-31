@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "async": "~0.2.9",
-    "bower": "0.10.x",
+    "bower": "1.x",
     "fs.extra": "1.2.x",
     "readdirp": "0.3.x",
     "minimatch": "0.2.x",
