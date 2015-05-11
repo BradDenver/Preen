@@ -14,8 +14,8 @@ My projects `bower.json` file has jquery as a dependency.
   }
 }
 ```
-which gives the following folder after running `bower install`  
-![](https://raw.github.com/BradDenver/Preen/master/screenshots/basic.png)  
+which gives the following folder after running `bower install`
+![](https://raw.github.com/BradDenver/Preen/master/screenshots/basic.png)
 but all I really need for this project is the 4 javascript files.
 So I update my `bower.json` with a preen property as follows
 ```javascript
@@ -31,7 +31,7 @@ So I update my `bower.json` with a preen property as follows
   }
 }
 ```
-and then run `preen` to end up with  
+and then run `preen` to end up with
 ![](https://raw.github.com/BradDenver/Preen/master/screenshots/basic2.png)
 
 ###Updated Example
@@ -70,15 +70,17 @@ Any packages not listed will not be preened.
 
 ##Options
 when running via the command line you can add a preview flag to see a list of all paths and if they will be deleted or kept
-`preen --preview`  
-![](https://raw.github.com/BradDenver/Preen/master/screenshots/preview.png)  
-you can then run `preen` if you are happy to go ahead  
+`preen --preview`
+![](https://raw.github.com/BradDenver/Preen/master/screenshots/preview.png)
+you can then run `preen` if you are happy to go ahead
 ![](https://raw.github.com/BradDenver/Preen/master/screenshots/preview2.png)
 
 A verbose flag is also avaible to show the same level of detail as the actual preen is run
 `preen --verbose`
 
 You can also add a directory flag to override bower's default directory (or the one set in .bowerrc). This can be useful when using preen as part of your build pipeline. Example: `preen --directory ./tmp/path/to/bower/root`
+
+Using `preen --cwd ./path/to/project` you can set another workung directory than the one where you started this script from. This is useful for automating tasks and run preen from a parent folder. (i.e. this option works similar to Bowers `cwd` option.)
 
 ##Grunt Task
 while preen can be run via the command line it is well suited to running as a [grunt task](https://github.com/braddenver/grunt-preen)
