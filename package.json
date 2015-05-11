@@ -1,6 +1,5 @@
 {
   "name": "preen",
-  "version": "1.2.0",
   "homepage": "https://github.com/braddenver/preen",
   "description": "preen unwanted files in packages installed via Bower",
   "main": "./lib/preen.js",
