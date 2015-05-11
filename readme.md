@@ -1,4 +1,4 @@
-#Preen [![Analytics](https://ga-beacon.appspot.com/UA-40041520-3/Preen/readme)](https://github.com/igrigorik/ga-beacon)
+#Preen
 
 >A Node.js module to preen unwanted files and folders from packages installed via Bower.
 
@@ -79,6 +79,8 @@ A verbose flag is also avaible to show the same level of detail as the actual pr
 `preen --verbose`
 
 You can also add a directory flag to override bower's default directory (or the one set in .bowerrc). This can be useful when using preen as part of your build pipeline. Example: `preen --directory ./tmp/path/to/bower/root`
+
+Using `preen --cwd ./path/to/project` you can set another workung directory than the one where you started this script from. This is useful for automating tasks and run preen from a parent folder. (i.e. this option works similar to Bowers `cwd` option.)
 
 ##Grunt Task
 while preen can be run via the command line it is well suited to running as a [grunt task](https://github.com/braddenver/grunt-preen)
