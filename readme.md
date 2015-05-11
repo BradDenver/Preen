@@ -1,4 +1,4 @@
-#Preen
+#Preen [![Analytics](https://ga-beacon.appspot.com/UA-40041520-3/Preen/readme)](https://github.com/igrigorik/ga-beacon)
 
 >A Node.js module to preen unwanted files and folders from packages installed via Bower.
 
@@ -14,8 +14,8 @@ My projects `bower.json` file has jquery as a dependency.
   }
 }
 ```
-which gives the following folder after running `bower install`  
-![](https://raw.github.com/BradDenver/Preen/master/screenshots/basic.png)  
+which gives the following folder after running `bower install`
+![](https://raw.github.com/BradDenver/Preen/master/screenshots/basic.png)
 but all I really need for this project is the 4 javascript files.
 So I update my `bower.json` with a preen property as follows
 ```javascript
@@ -31,7 +31,7 @@ So I update my `bower.json` with a preen property as follows
   }
 }
 ```
-and then run `preen` to end up with  
+and then run `preen` to end up with
 ![](https://raw.github.com/BradDenver/Preen/master/screenshots/basic2.png)
 
 ###Updated Example
@@ -70,9 +70,9 @@ Any packages not listed will not be preened.
 
 ##Options
 when running via the command line you can add a preview flag to see a list of all paths and if they will be deleted or kept
-`preen --preview`  
-![](https://raw.github.com/BradDenver/Preen/master/screenshots/preview.png)  
-you can then run `preen` if you are happy to go ahead  
+`preen --preview`
+![](https://raw.github.com/BradDenver/Preen/master/screenshots/preview.png)
+you can then run `preen` if you are happy to go ahead
 ![](https://raw.github.com/BradDenver/Preen/master/screenshots/preview2.png)
 
 A verbose flag is also avaible to show the same level of detail as the actual preen is run
