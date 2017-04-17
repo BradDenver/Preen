@@ -1,10 +1,10 @@
-#Preen [![Analytics](https://ga-beacon.appspot.com/UA-40041520-3/Preen/readme)](https://github.com/igrigorik/ga-beacon)
+# Preen [![Analytics](https://ga-beacon.appspot.com/UA-40041520-3/Preen/readme)](https://github.com/igrigorik/ga-beacon)
 
 >A Node.js module to preen unwanted files and folders from packages installed via Bower.
 
 Bower is great but some times it gives you more than you need. These days many packages define paths that are not required in production via the `bower.json` files `ignore` property but even then you may still get more than you need. Preens role is to remove any of those unwanted files/paths.
 
-##A Basic Example
+## A Basic Example
 My projects `bower.json` file has jquery as a dependency.
 ```javascript
 {
@@ -34,7 +34,7 @@ So I update my `bower.json` with a preen property as follows
 and then run `preen` to end up with  
 ![](https://raw.github.com/BradDenver/Preen/master/screenshots/basic2.png)
 
-###Updated Example
+### Updated Example
 The previous example will not work for newer versions of jquery such as 2.1.1 due to its updated folder structure
 
 ![](https://raw.github.com/BradDenver/Preen/master/screenshots/example2_before.png)
@@ -57,7 +57,7 @@ resulting in
 
 ![](https://raw.github.com/BradDenver/Preen/master/screenshots/example2_after.png)
 
-##Configuration
+## Configuration
 As shown above configuration is done via the preen property of your `bower.json` file.
 The preen data object expects properties for each bower installed package that is to be preened in the format
 ```javascript
@@ -68,7 +68,7 @@ See [Minimatch](https://github.com/isaacs/minimatch) for an explanation of Minim
 
 Any packages not listed will not be preened.
 
-##Options
+## Options
 when running via the command line you can add a preview flag to see a list of all paths and if they will be deleted or kept
 `preen --preview`  
 ![](https://raw.github.com/BradDenver/Preen/master/screenshots/preview.png)  
@@ -80,11 +80,11 @@ A verbose flag is also avaible to show the same level of detail as the actual pr
 
 You can also add a directory flag to override bower's default directory (or the one set in .bowerrc). This can be useful when using preen as part of your build pipeline. Example: `preen --directory ./tmp/path/to/bower/root`
 
-##Grunt Task
+## Grunt Task
 while preen can be run via the command line it is well suited to running as a [grunt task](https://github.com/braddenver/grunt-preen)
 [![NPM](https://nodei.co/npm/grunt-preen.png?downloads=true&stars=true)](https://github.com/braddenver/grunt-preen)
 
-##Gulp Task
+## Gulp Task
 preen can also be used in a gulp task (there is no need for preen to have gulp plugin). The below example would run preen (with no options set) before the default task.
 ```javascript
 var gulp = require('gulp'),
@@ -99,7 +99,7 @@ gulp.task('preen', function(cb) {
 });
 ```
 
-##Dependencies
+## Dependencies
 thanks to the following modules that make this one possible
 * async
 * bower
@@ -109,7 +109,7 @@ thanks to the following modules that make this one possible
 * optimist
 * winston
 
-##Credits
+## Credits
 thanks to [@brainboost](https://github.com/brainboost), [@ratbeard](https://github.com/ratbeard) and [@Taiters](https://github.com/Taiters) for their contributions
 
 ## Release History
